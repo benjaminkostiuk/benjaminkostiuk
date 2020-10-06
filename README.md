@@ -1,11 +1,10 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1500426137/2648/allo-tongue.gif?1500426137" width="30" /> Hey, I'm Ben. Nice to meet you!</h1>
 
-<p>Welcome to my github!</p>
-<p>I'm a Computer Science student at McMaster University in my third year, currently interning @RBC. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
+<p>Welcome to my github! I'm a Computer Science student at McMaster University in my third year, currently interning @RBC. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
 
 <p>Most of my experience is in fullstack development, with some passion projects in mobile dev. If you want to talk code (or not) let's connect!</p>
 
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1572027745/6842/blob_derpy.png?1572027745" width="24"/> Things I code with </h2>
+<h3><img src="https://emojis.slackmojis.com/emojis/images/1572027745/6842/blob_derpy.png?1572027745" width="24"/> Things I code with </h3>
 <p>
     <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-2196f3?style=flat-square&logo=flutter&logoColor=white" />
     <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
@@ -29,7 +28,7 @@
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
     <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Read a little about what I write</h2> 
+<h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Read a little about what I write</h3> 
 
 <!--
 **BenjaminKostiuk/benjaminkostiuk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
