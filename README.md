@@ -1,5 +1,11 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1500426137/2648/allo-tongue.gif?1500426137" width="30" /> Hey, I'm Ben. Nice to meet you!</h1>
 
+[![Linkedin](https://img.shields.io/badge/-benjaminkostiuk-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/benjaminkostiuk/)](https://www.linkedin.com/in/benjaminkostiuk/)
+[![Mail](https://img.shields.io/badge/-benkostiuk1@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:benkostiuk1@gmail.com)](mailto:benkostiuk1@gmail.com)
+[![Website](https://img.shields.io/badge/-benkostiuk.com-orange?style=flat-square&logo=google-chrome&logoColor=white&link=https://www.benkostiuk.com)](https://www.benkostiuk.com)
+[![Medium](https://img.shields.io/badge/-@benkostiuk-12100E?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@benkostiuk)](https://medium.com/@benkostiuk)
+
+
 <p>Welcome to my Github! <br/>
 I'm a <b>Computer Science student at McMaster University</b> in my third year, currently <b>interning @ RBC</b>. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
 
