@@ -1,8 +1,9 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1500426137/2648/allo-tongue.gif?1500426137" width="30" /> Hey, I'm Ben. Nice to meet you!</h1>
 
-<p>Welcome to my github! I'm a Computer Science student at McMaster University in my third year, currently interning @RBC. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
+<p>Welcome to my Github! <br/>
+I'm a <b>Computer Science student at McMaster University</b> in my third year, currently <b>interning @ RBC</b>. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
 
-<p>Most of my experience is in fullstack development, with some passion projects in mobile dev. If you want to talk code (or not) let's connect!</p>
+<p>Most of my experience is in fullstack development, with some passion projects in mobile dev. If you want to talk code (or not) <a href="https://www.linkedin.com/in/benjaminkostiuk" target="_blank">let's connect!</a></p>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027745/6842/blob_derpy.png?1572027745" width="24"/> Things I code with </h3>
 <p>
