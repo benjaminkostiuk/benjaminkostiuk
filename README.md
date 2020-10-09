@@ -38,10 +38,20 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Things I'm posting</h3>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
-<p>
-    <img alt="Hades" src="http://media.steampowered.com/steamcommunity/public/images/apps/1145360/79416954db9fc5d5079c26839a77cd35b09e1608.jpg" width="50" />
-</p>
-
+<div style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px;">
+    <div style="display:grid; grid-template-columns:repeat(12, 1fr); grid-gap: 20px;">
+        <div style="grid-column:span 2;">
+            <div style="width: 100%">
+                <img alt="Hades" src="http://media.steampowered.com/steamcommunity/public/images/apps/1145360/79416954db9fc5d5079c26839a77cd35b09e1608.jpg" width="250" />
+            </div>
+        </div>
+        <div style="grid-column:span 8; float: left">
+            <p><span style="font-size:1.3em; font-weight: bold"><a href="https://store.steampowered.com/app/1145360">Hades</a></span> <br/>
+            Latest acheivement: <strong style="color: #b19cd9">Escaped Tartarus</strong>
+            </p>
+        </div>
+    </div>
+</div>
 
 
 -------
