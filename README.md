@@ -35,22 +35,15 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
     <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
-<h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Read a little about what I write</h3> 
+<h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Things I'm posting</h3>
 
-<!--
-**BenjaminKostiuk/benjaminkostiuk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
+<p>
+    <img alt="Hades" src="https://media.steampowered.com/steamcommunity/public/images/apps/1145360/79416954db9fc5d5079c26839a77cd35b09e1608.jpg" width="50" />
+</p>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
 -------
 <p align="center">This <i>README</i> file is generated <b>every x hours</b>!</br>Last refresh: Monday, 5 October, 23:02 CEST<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own with this guide!</a></p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
