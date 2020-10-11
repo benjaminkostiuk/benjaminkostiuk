@@ -16,6 +16,9 @@ async function getGamesList() {
         steamid: process.env.STEAM_ID,
         format: 'json',
         count: 3
+    }).catch(err => {
+        console.log(err);
+        return null;
     });
      // Get the list of recent games
     const gamesList = recentlyPlayedGamesRes.response.games;   
@@ -68,6 +71,7 @@ async function getGamesList() {
             }
             return game;
         }).catch(err => {
+            console.log(err);
             return game;
         });
     });
