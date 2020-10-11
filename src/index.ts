@@ -72,7 +72,10 @@ async function getGamesList() {
         });
     });
     // Get game list with achievement
-    return Promise.all(promises);
+    return Promise.all(promises).catch(err => {
+        console.log(err);
+        return null;
+    });
 }
 
 async function generateGameImg(game: Game) {
@@ -97,6 +100,7 @@ async function start() {
     const games = await getGamesList();
     // Generate png file for each game
     games.forEach(async game => {
+        if(!game) return;
         await generateGameImg(game);
     });
 
