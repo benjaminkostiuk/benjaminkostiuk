@@ -43,7 +43,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
 <p>
     {{#games}}
-        <a href="https://store.steampowered.com/app/{{ appid }}"><img alt="{{ name }}" src="{{ path }}" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/{{ appid }}"><img alt="{{ name }}" src="{{ path }}" /></a>
     {{/games}}
     {{^games}}
     <i>Guess I'm not playing anything right now.
@@ -51,8 +51,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
     Maybe check back later.</i>
     {{/games}}
 </p>
-<p align="center"><i>Games pulled from Steam</i></p>
 
 -------
-<p align="center">This <i>README</i> file is generated <b>every x hours</b>!</br>Last refresh: Monday, 5 October, 23:02 CEST<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own with this guide!</a></p>
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: {{ datetime }}<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>

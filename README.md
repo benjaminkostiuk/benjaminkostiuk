@@ -42,12 +42,11 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
 <p>
-        <a href="https://store.steampowered.com/app/1145360"><img alt="Hades" src=".&#x2F;assets&#x2F;images&#x2F;Hades.png" /></a>
-        <a href="https://store.steampowered.com/app/945360"><img alt="Among Us" src=".&#x2F;assets&#x2F;images&#x2F;Among Us.png" /></a>
-        <a href="https://store.steampowered.com/app/683320"><img alt="GRIS" src=".&#x2F;assets&#x2F;images&#x2F;GRIS.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1145360"><img alt="Hades" src=".&#x2F;assets&#x2F;images&#x2F;Hades.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/945360"><img alt="Among Us" src=".&#x2F;assets&#x2F;images&#x2F;Among Us.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/683320"><img alt="GRIS" src=".&#x2F;assets&#x2F;images&#x2F;GRIS.png" /></a>
 </p>
-<p align="center"><i>Games pulled from Steam</i></p>
 
 -------
-<p align="center">This <i>README</i> file is generated <b>every x hours</b>!</br>Last refresh: Monday, 5 October, 23:02 CEST<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own with this guide!</a></p>
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Sunday, October 11, 4:14 PM EDT<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>

@@ -1,5 +1,6 @@
 import { Game } from './game';
 
 export interface ReadmeData {
-    games?: Game[]
+    games?: Game[],
+    datetime: string
 }

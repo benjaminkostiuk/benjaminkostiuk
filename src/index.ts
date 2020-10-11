@@ -68,7 +68,8 @@ async function getGamesList() {
             }
             return game;
         }).catch(err => {
-            console.log(err);
+            console.log(`[WARNING] Failed to get game achievements for game ${recentlyPlayedGame.name} with ${err}.`);
+            console.log('[INFO] Skipping game...');
             return game;
         });
     });
@@ -84,7 +85,8 @@ async function generateGameImg(game: Game) {
                 output: game.path,
                 html: imgHtml
             })
-            .then(() => console.log('we good')).catch(err => console.log(err));
+            .then(() => console.log(`Successfully created ${game.path}.`))
+            .catch(err => console.log(`Failed to create ${game.path} with ${err}`));
         })
         .catch(err => {
             throw new Error(err);
@@ -100,13 +102,19 @@ async function start() {
         await generateGameImg(game);
     });
 
-    const DATA: ReadmeData = {
-        games: games
-    };
-
     // Replace README.md file by reading from mustache template
     const readmeContent = await fs.promises.readFile(MustacheTemplateConstants.mainPath)
-    const content = mustache.render(readmeContent.toString(), DATA);
+    const content = mustache.render(readmeContent.toString(), {
+        games: games,
+        datetime: new Date().toLocaleDateString('en-US', {
+            weekday: 'long',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric',
+            timeZoneName: 'short',
+        })
+    });
     
     fs.writeFileSync('README.md', content);
 }
