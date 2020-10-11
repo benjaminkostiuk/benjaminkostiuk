@@ -21,19 +21,6 @@ export class SteamService {
 
     public static async getPlayerAchievements(params: GetPlayerAchievementsParams): Promise<GetPlayerAchievementsResponse> {
         const URL = SteamConstants.PLAYER_ACHEIVEMENTS_URL;
-        return axios.get(URL, {params: params})
-            .then(response => {
-                if(response.status == 200) {
-                    return response.data;
-                } else {
-                    throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
-                }
-            }).catch(err => {
-                console.log('error' + err);
-                return null;
-            });
-
-
         try {
             let response: AxiosResponse<GetPlayerAchievementsResponse> = await axios.get(URL, {params: params});
             if(response.status == 200) {
@@ -42,8 +29,7 @@ export class SteamService {
                 throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
             }
         } catch(error) {
-            console.log(`[WARNING] Failed to get game achievements with ${error}.`);
-            console.log('[INFO] Skipping game...');
+            throw new Error(error);
         }
     }
 
