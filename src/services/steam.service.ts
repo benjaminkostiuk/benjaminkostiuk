@@ -29,7 +29,8 @@ export class SteamService {
                 throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
             }
         } catch(error) {
-            throw new Error(error);
+            console.log(`[WARNING] Failed to get game achievements with ${error}.`);
+            console.log('[INFO] Skipping game...');
         }
     }
 
