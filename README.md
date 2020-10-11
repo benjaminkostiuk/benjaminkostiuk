@@ -5,7 +5,6 @@
 [![Website](https://img.shields.io/badge/-benkostiuk.com-00A82D?style=flat-square&logo=google-chrome&logoColor=white&link=https://www.benkostiuk.com)](https://www.benkostiuk.com)
 [![Medium](https://img.shields.io/badge/-@benkostiuk-12100E?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@benkostiuk)](https://medium.com/@benkostiuk)
 
-
 <p>Welcome to my Github! <br/>
 I'm a <b>Computer Science student at McMaster University</b> in my third year, currently <b>interning @ RBC</b>. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
 
@@ -43,27 +42,11 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
 <p>
-    <img src="./assets/images/Hades.png">
-    <img src="./assets/images/Hades.png">
-    <img src="./assets/images/Hades.png">
+        <a href="https://store.steampowered.com/app/1145360"><img alt="Hades" src=".&#x2F;assets&#x2F;images&#x2F;Hades.png" /></a>
+        <a href="https://store.steampowered.com/app/945360"><img alt="Among Us" src=".&#x2F;assets&#x2F;images&#x2F;Among Us.png" /></a>
+        <a href="https://store.steampowered.com/app/683320"><img alt="GRIS" src=".&#x2F;assets&#x2F;images&#x2F;GRIS.png" /></a>
 </p>
-<p align="center"><i>Games pulled from Steam</i></p> 
-
-<!-- <div style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px;">
-    <div style="display:grid; grid-template-columns:repeat(12, 1fr); grid-gap: 20px;">
-        <div style="grid-column:span 2;">
-            <div style="width: 100%">
-                <img alt="Hades" src="http://media.steampowered.com/steamcommunity/public/images/apps/1145360/79416954db9fc5d5079c26839a77cd35b09e1608.jpg" width="250" />
-            </div>
-        </div>
-        <div style="grid-column:span 8; float: left">
-            <p><span style="font-size:1.3em; font-weight: bold"><a href="https://store.steampowered.com/app/1145360">Hades</a></span> <br/>
-            Latest acheivement: <strong style="color: #b19cd9">Escaped Tartarus</strong>
-            </p>
-        </div>
-    </div>
-</div> -->
-
+<p align="center"><i>Games pulled from Steam</i></p>
 
 -------
 <p align="center">This <i>README</i> file is generated <b>every x hours</b>!</br>Last refresh: Monday, 5 October, 23:02 CEST<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own with this guide!</a></p>
