@@ -36,9 +36,20 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
     <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Things I'm posting</h3>
+<ul>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/124/124011.svg" width="16"><a href="google.com"> Posting about</a><br/><i>Another piece of news.</i></li>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111505.svg" width="15"><a href="google.com"> Another post about</a><br/><i>Some piece of news</i></li>
+</ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
-<div style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px;">
+<p>
+    <img src="./assets/images/Hades.png">
+    <img src="./assets/images/Hades.png">
+    <img src="./assets/images/Hades.png">
+</p>
+<p align="center"><i>Games pulled from Steam</i></p> 
+
+<!-- <div style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px;">
     <div style="display:grid; grid-template-columns:repeat(12, 1fr); grid-gap: 20px;">
         <div style="grid-column:span 2;">
             <div style="width: 100%">
@@ -51,7 +62,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
             </p>
         </div>
     </div>
-</div>
+</div> -->
 
 
 -------
