@@ -3,6 +3,9 @@ export interface SocialMediaPost {
     subtitle?: string,
     link: string,
     source: SocialMediaPlatform
+    icon?: string,
+    platform?: string,
+    profileLink?: string
 }
 
 export enum SocialMediaPlatform {
