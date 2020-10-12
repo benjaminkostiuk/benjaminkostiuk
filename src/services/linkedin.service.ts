@@ -23,10 +23,18 @@ export class LinkedinService {
         });
         let page = await browser.newPage()
         page.setViewport({ width: 1366, height: 3500 });
-
+        let count = 0;
         async function goToLogin(page) {
             await page.goto(LinkedinConstants.LINKEDIN_LOGIN_URL, { waitUntil: 'networkidle2' })
-                .catch(err => goToLogin(page));
+                .catch(err => {
+                    count++;
+                    if(count <= 10) {
+                        goToLogin(page);
+                    } 
+                    else {
+                        console.log('[WARNING] Failed to navigate to linkedin sign-in');
+                    }      
+                });
         }
 
         await goToLogin(page)
