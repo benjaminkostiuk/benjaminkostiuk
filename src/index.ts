@@ -1,11 +1,14 @@
 import mustache from 'mustache';
-import fs from 'fs';
+import fs, { link } from 'fs';
 import nodeHtmlToImage from 'node-html-to-image';
 
 import { SteamService } from './services/steam.service';
 import { Game } from './models/game';
 import { ReadmeData } from './models/readme';
-import { MustacheTemplateConstants } from './constants';
+import { LinkedinConstants, MediumConstants, MustacheTemplateConstants } from './constants';
+import { MediumService } from './services/medium.service';
+import { LinkedinService } from './services/linkedin.service';
+import { SocialMediaPost } from './models/post';
 
 require('dotenv').config();
 
@@ -109,6 +112,48 @@ async function start() {
         await generateGameImg(game);
     });
 
+    // Get medium posts
+    let mediumPosts: SocialMediaPost[] = [];
+    try {
+        console.log('[INFO] Pulling medium posts...');
+        mediumPosts = await MediumService.getRecentPosts();
+        console.log('[INFO] Successfully pulled medium posts.');
+    } catch(err) {
+        console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
+        console.log(`[INFO] Skipping reading medium posts...`);
+    }
+
+    // Get linkedin posts
+    let linkedinPosts: SocialMediaPost[] = [];
+    try {
+        console.log('[INFO] Pulling linkedin posts...');
+        linkedinPosts = await LinkedinService.getRecentPosts();
+        console.log('[INFO] Successfully pulled linked posts.');
+    } catch(err) {
+        console.log(`[WARNING] Failed to pull linkedin posts with error ${err}.`);
+        console.log(`[INFO] Skipping reading linkedin posts...`);
+    }
+    // Truncate text and add subtitles for shares
+    linkedinPosts.forEach(post => {
+        if(post.title.length > 80) {
+            post.title = post.title.slice(0, 75) + '...';
+        }
+        post.subtitle = 'Shared'
+        post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
+        post.platform = 'Linkedin';
+    });
+
+    let totalPosts = mediumPosts.concat(linkedinPosts);
+    if(process.env.POST_COUNT) {
+        let num: number = parseInt(process.env.POST_COUNT);
+        totalPosts = totalPosts.slice(0, num);
+    }
+    // Add profile link and platform
+    mediumPosts.forEach(post => {
+        post.profileLink = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
+        post.platform = 'Medium';
+    });
+    
     // Replace README.md file by reading from mustache template
     const readmeContent = await fs.promises.readFile(MustacheTemplateConstants.mainPath)
     const content = mustache.render(readmeContent.toString(), {
@@ -121,7 +166,8 @@ async function start() {
             minute: 'numeric',
             timeZoneName: 'short',
             timeZone: 'America/Toronto'
-        })
+        }),
+        posts: totalPosts
     });
     
     fs.writeFileSync('README.md', content);
