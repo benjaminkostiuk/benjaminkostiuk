@@ -48,5 +48,5 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 </p>
 
 -------
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, October 13, 2:22 AM EDT<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, October 13, 8:26 AM EDT<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
