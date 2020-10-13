@@ -36,8 +36,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Things I'm posting</h3>
 <ul>
-    <li><img src="https://www.flaticon.com/svg/static/icons/svg/124/124011.svg" width="16"><a href="google.com"> Posting about</a><br/><i>Another piece of news.</i></li>
-    <li><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111505.svg" width="15"><a href="google.com"> Another post about</a><br/><i>Some piece of news</i></li>
+        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;2111&#x2F;2111505.svg" width="16"><a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk&#x2F;test-story-3-bd724ec112d5"> Test story 3</a><br/><i>Create your own test story on <a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk">Medium</a></i></li>
+        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;2111&#x2F;2111505.svg" width="16"><a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk&#x2F;a-test-story-f07ea44c1206"> A test story</a><br/><i>Adding a new subtitle here on <a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk">Medium</a></i></li>
 </ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> Things I'm playing</h3>
@@ -48,5 +48,5 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 </p>
 
 -------
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, October 12, 5:18 PM EDT<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, October 12, 8:58 PM EDT<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
