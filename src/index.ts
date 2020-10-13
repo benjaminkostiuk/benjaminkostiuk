@@ -122,6 +122,11 @@ async function start() {
         console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
         console.log(`[INFO] Skipping reading medium posts...`);
     }
+    // Add profile link and platform
+    mediumPosts.forEach(post => {
+        post.profileLink = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
+        post.platform = 'Medium';
+    });
 
     // Get linkedin posts
     let linkedinPosts: SocialMediaPost[] = [];
@@ -143,16 +148,11 @@ async function start() {
         post.platform = 'Linkedin';
     });
 
-    let totalPosts = mediumPosts.concat(linkedinPosts);
+    let totalPosts = mediumPosts.concat([]);
     if(process.env.POST_COUNT) {
         let num: number = parseInt(process.env.POST_COUNT);
         totalPosts = totalPosts.slice(0, num);
     }
-    // Add profile link and platform
-    mediumPosts.forEach(post => {
-        post.profileLink = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
-        post.platform = 'Medium';
-    });
     
     // Replace README.md file by reading from mustache template
     const readmeContent = await fs.promises.readFile(MustacheTemplateConstants.mainPath)
