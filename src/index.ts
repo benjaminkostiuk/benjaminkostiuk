@@ -129,24 +129,24 @@ async function start() {
     });
 
     // Get linkedin posts
-    let linkedinPosts: SocialMediaPost[] = [];
-    try {
-        console.log('[INFO] Pulling linkedin posts...');
-        linkedinPosts = await LinkedinService.getRecentPosts();
-        console.log('[INFO] Successfully pulled linked posts.');
-    } catch(err) {
-        console.log(`[WARNING] Failed to pull linkedin posts with error ${err}.`);
-        console.log(`[INFO] Skipping reading linkedin posts...`);
-    }
-    // Truncate text and add subtitles for shares
-    linkedinPosts.forEach(post => {
-        if(post.title.length > 80) {
-            post.title = post.title.slice(0, 75) + '...';
-        }
-        post.subtitle = 'Shared'
-        post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
-        post.platform = 'Linkedin';
-    });
+    // let linkedinPosts: SocialMediaPost[] = [];
+    // try {
+    //     console.log('[INFO] Pulling linkedin posts...');
+    //     linkedinPosts = await LinkedinService.getRecentPosts();
+    //     console.log('[INFO] Successfully pulled linked posts.');
+    // } catch(err) {
+    //     console.log(`[WARNING] Failed to pull linkedin posts with error ${err}.`);
+    //     console.log(`[INFO] Skipping reading linkedin posts...`);
+    // }
+    // // Truncate text and add subtitles for shares
+    // linkedinPosts.forEach(post => {
+    //     if(post.title.length > 80) {
+    //         post.title = post.title.slice(0, 75) + '...';
+    //     }
+    //     post.subtitle = 'Shared'
+    //     post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
+    //     post.platform = 'Linkedin';
+    // });
 
     let totalPosts = mediumPosts.concat([]);
     if(process.env.POST_COUNT) {
