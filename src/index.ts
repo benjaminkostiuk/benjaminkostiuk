@@ -112,15 +112,29 @@ async function start() {
         await generateGameImg(game);
     });
 
-    // Get medium posts
-    let mediumPosts: SocialMediaPost[] = [];
+
     try {
         console.log('[INFO] Pulling medium posts...');
-        mediumPosts = await MediumService.getRecentPosts();
+        const mediumPosts = await MediumService.getRecentPosts();
         console.log('[INFO] Successfully pulled medium posts.');
+        fs.writeFileSync('./assets/data/medium.json', JSON.stringify(mediumPosts));     // Write posts to file
     } catch(err) {
         console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
         console.log(`[INFO] Skipping reading medium posts...`);
+    }
+
+    // Get medium posts
+    let mediumPosts: SocialMediaPost[] = [];
+    try {
+        await fs.promises.readFile('./assets/data/medium.json')
+            .then(data => {
+                mediumPosts = JSON.parse(data.toString());
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    } catch(err) {
+        console.log('Could not parse posts');
     }
     // Add profile link and platform
     mediumPosts.forEach(post => {
@@ -129,26 +143,40 @@ async function start() {
     });
 
     // Get linkedin posts
-    // let linkedinPosts: SocialMediaPost[] = [];
-    // try {
-    //     console.log('[INFO] Pulling linkedin posts...');
-    //     linkedinPosts = await LinkedinService.getRecentPosts();
-    //     console.log('[INFO] Successfully pulled linked posts.');
-    // } catch(err) {
-    //     console.log(`[WARNING] Failed to pull linkedin posts with error ${err}.`);
-    //     console.log(`[INFO] Skipping reading linkedin posts...`);
-    // }
-    // // Truncate text and add subtitles for shares
-    // linkedinPosts.forEach(post => {
-    //     if(post.title.length > 80) {
-    //         post.title = post.title.slice(0, 75) + '...';
-    //     }
-    //     post.subtitle = 'Shared'
-    //     post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
-    //     post.platform = 'Linkedin';
-    // });
+    try {
+        console.log('[INFO] Pulling linkedin posts...');
+        const linkedinPosts = await LinkedinService.getRecentPosts();
+        console.log('[INFO] Successfully pulled linked posts.');
+        fs.writeFileSync('./assets/data/linkedin.json', JSON.stringify(linkedinPosts));    // Write posts to file
+    } catch(err) {
+        console.log(`[WARNING] Failed to pull linkedin posts with error ${err}.`);
+        console.log(`[INFO] Skipping reading linkedin posts...`);
+    }
 
-    let totalPosts = mediumPosts.concat([]);
+    // Read posts from file
+    let linkedinPosts: SocialMediaPost[] = [];
+    try {
+        await fs.promises.readFile('./assets/data/linkedin.json')
+            .then(data => {
+                linkedinPosts = JSON.parse(data.toString());
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    } catch(err) {
+        console.log('Could not parse posts');
+    }
+    // Truncate text and add subtitles for shares
+    linkedinPosts.forEach(post => {
+        if(post.title.length > 80) {
+            post.title = post.title.slice(0, 75) + '...';
+        }
+        post.subtitle = 'Shared a post'
+        post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
+        post.platform = 'Linkedin';
+    });
+
+    let totalPosts = mediumPosts.concat(linkedinPosts);
     if(process.env.POST_COUNT) {
         let num: number = parseInt(process.env.POST_COUNT);
         totalPosts = totalPosts.slice(0, num);

@@ -19,50 +19,55 @@ export class LinkedinService {
     public static async getRecentPosts(): Promise<SocialMediaPost[]> {
         // Launch browser
         const browser = await puppeteer.launch({
-            args: [`--proxy-server=http=${PuppeteerService.randomizeProxy()}`, "--incognito"],
+            headless: false
         });
-        let page = await browser.newPage()
-        page.setViewport({ width: 1366, height: 3500 });
-        let count = 0;
-        async function goToLogin(page) {
-            await page.goto(LinkedinConstants.LINKEDIN_LOGIN_URL, { waitUntil: 'networkidle2' })
-                .catch(err => {
-                    count++;
-                    if(count <= 10) {
-                        goToLogin(page);
-                    } 
-                    else {
-                        console.log('[WARNING] Failed to navigate to linkedin sign-in');
-                    }      
+        let linkedinPosts: LinkedinPost[] = [];
+        try {
+            let page = await browser.newPage()
+            page.setViewport({ width: 1366, height: 3500 });
+            let count = 0;
+            async function goToLogin(page) {
+                await page.goto(LinkedinConstants.LINKEDIN_LOGIN_URL, { waitUntil: 'networkidle2' })
+                    .catch(err => {
+                        count++;
+                        if(count <= 10) {
+                            goToLogin(page);
+                        } 
+                        else {
+                            console.log('[WARNING] Failed to navigate to linkedin sign-in');
+                        }      
+                    });
+            }
+
+            await goToLogin(page)
+            await page.click(this.EMAIL_SELECTOR)
+            await page.keyboard.type(process.env.LINKEDIN_EMAIL);       // enter email
+            await page.click(this.PASSWORD_SELECTOR);
+            await page.keyboard.type(process.env.LINKEDIN_PASSWORD);    // enter password
+            await page.click(this.SUBMIT_SELECTOR);                     // submit form
+            await page.waitForSelector(this.NAV_SELECTOR, {visible: true, timeout: 180000});      // wait for redirect to home page
+            // Go to articles
+            await page.goto(this.getPostsUrl(), { waitUntil: "networkidle2" });    // wait till entire page is loaded
+
+            linkedinPosts = await page.evaluate(() => {
+                let feed = document.getElementById('voyager-feed');
+                let postDivs = feed.querySelectorAll("div.occludable-update.ember-view");
+
+                let posts = [];
+                postDivs.forEach(postDiv => {
+                    let post = {
+                        title: postDiv.querySelector("div[class*='description-wrapper'] span[dir=ltr]")?.textContent,
+                        link: postDiv.querySelector("div > div[data-urn]")?.getAttribute('data-urn')
+                    };
+                    posts.push(post);
                 });
-        }
-
-        await goToLogin(page)
-        await page.click(this.EMAIL_SELECTOR)
-        await page.keyboard.type(process.env.LINKEDIN_EMAIL);       // enter email
-        await page.click(this.PASSWORD_SELECTOR);
-        await page.keyboard.type(process.env.LINKEDIN_PASSWORD);    // enter password
-        await page.click(this.SUBMIT_SELECTOR);                     // submit form
-        await page.waitForSelector(this.NAV_SELECTOR, {visible: true, timeout: 0});      // wait for redirect to home page
-        // Go to articles
-        await page.goto(this.getPostsUrl(), { waitUntil: "networkidle2" });    // wait till entire page is loaded
-
-        let linkedinPosts: LinkedinPost[] = await page.evaluate(() => {
-            let feed = document.getElementById('voyager-feed');
-            let postDivs = feed.querySelectorAll("div.occludable-update.ember-view");
-
-            let posts = [];
-            postDivs.forEach(postDiv => {
-                let post = {
-                    title: postDiv.querySelector("div[class*='description-wrapper'] span[dir=ltr]")?.textContent,
-                    link: postDiv.querySelector("div > div[data-urn]")?.getAttribute('data-urn')
-                };
-                posts.push(post);
+                return posts;
             });
-            return posts;
-        });
-        await browser.close();
-
+            await browser.close();
+        } catch(err) {
+            await browser.close();
+            throw new Error(err);
+        }
         return linkedinPosts.map(post => {
             return {
                 title: post.title,
