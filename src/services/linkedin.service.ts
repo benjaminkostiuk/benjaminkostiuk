@@ -18,9 +18,7 @@ export class LinkedinService {
 
     public static async getRecentPosts(): Promise<SocialMediaPost[]> {
         // Launch browser
-        const browser = await puppeteer.launch({
-            headless: false
-        });
+        const browser = await puppeteer.launch();
         let linkedinPosts: LinkedinPost[] = [];
         try {
             let page = await browser.newPage()

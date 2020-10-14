@@ -17,7 +17,7 @@ export class MediumService {
         });
         const page = await browser.newPage();                   // get new page
         await page.setViewport({ width: 1000, height: 926 });   // set height to see new posts
-        await page.setDefaultNavigationTimeout(240000);              // set a 4 minute timeout
+        await page.setDefaultNavigationTimeout(360000);              // set a 4 minute timeout
         await page.goto(url, { waitUntil: "networkidle2" });    // wait till entire page is loaded
 
         // Start grabbing posts
