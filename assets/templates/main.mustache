@@ -37,7 +37,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> Things I'm posting</h3>
 <ul>
     {{#posts}}
-        <li><img src="{{ icon }}" width="16"><a href="{{ link }}"> {{ title }}</a><br/><i>{{ subtitle }} on <a href="{{ profileLink }}">{{ platform }}</a></i></li>
+        <li><img src="{{ icon }}" width="16"><a href="{{ link }}"> {{ title }}</a><br/><i>{{ subtitle }}</i> on <a href="{{ profileLink }}">{{ platform }}</a></li>
     {{/posts}}
     {{^posts}}
         <p><i>Hmmm, looks like I haven't posted anything yet.</i></p>
@@ -57,5 +57,10 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 </p>
 
 -------
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: {{ datetime }}<br />Games are pulled from <i>Steam</i> and posts are pulled from <i>Linkedin</i> and <i>Medium</i>.</p>
-<p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
+<p align="center">
+    This <i>README</i> file is generated <b>every 3 hours</b>!
+    <br/>Last refresh: {{ datetime }}
+    <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
+<p align="center">
+    <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
+</p>
