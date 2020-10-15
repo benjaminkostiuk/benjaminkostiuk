@@ -10,6 +10,7 @@ export class MediumConstants {
     public static readonly MEDIUM_DOMAIN = "https://medium.com";
     public static readonly MEDIUM_PROFILE_URL = "https://medium.com/@";
     public static readonly MEDIUM_ICON = "https://www.flaticon.com/svg/static/icons/svg/2111/2111505.svg";
+    public static readonly MEDIUM_DATA_PATH = "./assets/data/medium.json";
 }
 
 export class LinkedinConstants {
@@ -19,6 +20,7 @@ export class LinkedinConstants {
     public static readonly LINKEDIN_FEED_UPDATE_URL = "https://www.linkedin.com/feed/update/";
     public static readonly LINKEDIN_ICON = "https://www.flaticon.com/svg/static/icons/svg/124/124011.svg";
     public static readonly LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/";
+    public static readonly LINKEDIN_DATA_PATH = "./assets/data/linkedin.json";
 }
 
 export class MustacheTemplateConstants {
