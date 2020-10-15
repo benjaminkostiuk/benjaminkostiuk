@@ -24,16 +24,19 @@ export class MediumService {
         let mediumPosts: MediumPost[] = await page.evaluate(() => {
             let root = document.getElementById('root');                      // get root element
             let postGroup = root.querySelector('section > div:not(.ab)');    // select grouping with all posts
-            let postsDivs = postGroup.querySelectorAll('div.ab.c');              // select all post div
+            let postsDivs = postGroup?.querySelectorAll('div.ab.c');              // select all post div
             
             let posts: MediumPost[] = [];
-            postsDivs.forEach(post => {
-                posts.push({
-                    title: post.querySelector('h1')?.textContent,        // get post title
-                    subtitle: post.querySelector('h2')?.textContent,     // get post subtitle
-                    link: post.querySelector(`div.ab > a[href]`)?.getAttribute('href'),        // get post link
-                });
-            });
+            
+            if(postsDivs) {
+                postsDivs.forEach(post => {
+                    posts.push({
+                        title: post.querySelector('h1')?.textContent,        // get post title
+                        subtitle: post.querySelector('h2')?.textContent,     // get post subtitle
+                        link: post.querySelector(`div.ab > a[href]`)?.getAttribute('href'),        // get post link
+                    });
+                })
+            };
             return posts;
         });
         await browser.close();
