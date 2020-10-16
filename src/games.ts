@@ -70,8 +70,7 @@ export async function getGamesList() {
             }
             return game;
         }).catch(err => {
-            console.log(`[WARNING] Failed to get game achievements for game ${recentlyPlayedGame.name} with ${err}.`);
-            console.log('[INFO] Skipping game...');
+            console.log(`[WARNING] Failed to get game achievements for game ${recentlyPlayedGame.name} with ${err}. Skipping game...`);
             return game;
         });
     });

@@ -1,17 +1,30 @@
-import axios, { AxiosResponse } from 'axios';
+import axios from 'axios';
 import { SteamConstants } from '../constants';
 
 export class SteamService {
+
+    // 200 status code
+    private static HTTP_OK = 200;
+
+    /**
+     * Make a GET api call to a resource
+     * @param url Api resource url
+     * @param params Api resource params
+     */
+    private static async callSteamApi(url: string, params: any) {
+        let response = await axios.get(url, {params: params});
+        if(response.status === this.HTTP_OK) {
+            return response.data;
+        } else {
+            throw new Error(`Failed to GET ${url} with status code ${response.status}.`);
+        }
+    }
     
     public static async getRecentlyPlayedGames(params: GetRecentlyPlayedGamesParams): Promise<GetRecentlyPlayedGamesResponse> {
         const URL = SteamConstants.RECENTLY_PLAYED_URL;
         try {
-            let response: AxiosResponse<GetRecentlyPlayedGamesResponse> = await axios.get(URL, {params: params});
-            if(response.status == 200) {
-                return response.data;
-            } else {
-                throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
-            }
+            const data = await this.callSteamApi(URL, params);
+            return data;
         } catch(error) {
             throw new Error(error);
         }
@@ -20,12 +33,8 @@ export class SteamService {
     public static async getPlayerAchievements(params: GetPlayerAchievementsParams): Promise<GetPlayerAchievementsResponse> {
         const URL = SteamConstants.PLAYER_ACHEIVEMENTS_URL;
         try {
-            let response: AxiosResponse<GetPlayerAchievementsResponse> = await axios.get(URL, {params: params});
-            if(response.status == 200) {
-                return response.data;
-            } else {
-                throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
-            }
+            const data = await this.callSteamApi(URL, params);
+            return data;
         } catch(error) {
             throw new Error(error);
         }
@@ -34,12 +43,8 @@ export class SteamService {
     public static async getSchemaForGame(params: GetSchemaForGameParams): Promise<GetSchemaForGameResponse> {
         const URL = SteamConstants.GET_SCHEMA_FOR_GAME;
         try {
-            let response: AxiosResponse<GetSchemaForGameResponse> = await axios.get(URL, {params: params});
-            if(response.status == 200) {
-                return response.data;
-            } else {
-                throw new Error(`Failed to GET ${URL} with status code ${response.status}`);
-            }
+            const data = await this.callSteamApi(URL, params);
+            return data;
         } catch(error) {
             throw new Error(error);
         }
