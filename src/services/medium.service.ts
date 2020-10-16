@@ -9,8 +9,8 @@ require('dotenv').config();     // enable env variables
 
 export class MediumService {
 
-    public static async getRecentPosts(): Promise<SocialMediaPost[]> {
-        const url = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
+    public static async getRecentPosts(username: string): Promise<SocialMediaPost[]> {
+        const url = MediumConstants.MEDIUM_PROFILE_URL + username;
         console.log(url);
         // Launch browser
         const browser = await puppeteer.launch({

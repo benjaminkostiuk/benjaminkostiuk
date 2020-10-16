@@ -1,8 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 import { SteamConstants } from '../constants';
 
-require('dotenv').config();     // enable env variables
-
 export class SteamService {
     
     public static async getRecentlyPlayedGames(params: GetRecentlyPlayedGamesParams): Promise<GetRecentlyPlayedGamesResponse> {
