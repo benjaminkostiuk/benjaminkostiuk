@@ -18,25 +18,22 @@ async function reGenerateReadme() {
         await generateGameImg(game);
     });
 
-    try {
-        console.log('[INFO] Pulling medium posts...');
-        await fetchAndStoreMediumPosts();
-        console.log('[INFO] Successfully pulled medium posts.');
-    } catch(err) {
-        console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
-        console.log(`[INFO] Falling back to useing reading medium posts...`);
-    }
+    // try {
+    //     console.log('[INFO] Pulling medium posts...');
+    //     await fetchAndStoreMediumPosts();
+    //     console.log('[INFO] Successfully pulled medium posts.');
+    // } catch(err) {
+    //     console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
+    //     console.log(`[INFO] Falling back to useing reading medium posts...`);
+    // }
 
     // Get medium posts
     let mediumPosts: SocialMediaPost[] = [];
     try {
         console.log(`[INFO] Parsing Medium data from ${MediumConstants.MEDIUM_DATA_PATH}...`);
-        await fs.promises.readFile(MediumConstants.MEDIUM_DATA_PATH)
-            .then(data => {
-                mediumPosts = JSON.parse(data.toString());
-            });
+        mediumPosts = await fs.promises.readFile(MediumConstants.MEDIUM_DATA_PATH).then(data => JSON.parse(data.toString()));
     } catch(err) {
-        console.log(`[WARNING] Could not parse Medium data with ${err}`);
+        console.log(`[WARNING] Could not parse Medium data with ${err}.`);
     }
     // // Add profile link and platform
     mediumPosts.forEach(post => {
@@ -53,7 +50,7 @@ async function reGenerateReadme() {
                 linkedinPosts = JSON.parse(data.toString());
             })
     } catch(err) {
-        console.log(`[WARNING] Could not parse Linkedin data with ${err}`);
+        console.log(`[WARNING] Could not parse Linkedin data with ${err}.`);
     }
     // Truncate text and add subtitles for shares
     linkedinPosts.forEach(post => {
@@ -87,7 +84,7 @@ async function reGenerateReadme() {
         }),
         posts: totalPosts
     });
-    
+    console.log('[INFO] Writing updated content to README.md...');
     fs.writeFileSync('README.md', content);
 }
 
