@@ -11,6 +11,7 @@ export class MediumService {
 
     public static async getRecentPosts(): Promise<SocialMediaPost[]> {
         const url = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
+        console.log(url);
         // Launch browser
         const browser = await puppeteer.launch({
             args: [`--proxy-server=http=${PuppeteerService.randomizeProxy()}`, "--incognito"],
@@ -18,7 +19,13 @@ export class MediumService {
         const page = await browser.newPage();                   // get new page
         await page.setViewport({ width: 1000, height: 926 });   // set height to see new posts
         await page.setDefaultNavigationTimeout(360000);              // set a 4 minute timeout
-        await page.goto(url, { waitUntil: "networkidle2" });    // wait till entire page is loaded
+        
+        try {
+            await page.goto(url, { waitUntil: "networkidle2" });    // wait till entire page is loaded
+        } catch(err) {
+            console.log(url);
+            await browser.close();
+        }
 
         // Start grabbing posts
         let mediumPosts: MediumPost[] = await page.evaluate(() => {
