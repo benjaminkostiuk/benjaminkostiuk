@@ -9,12 +9,12 @@ require('dotenv').config();     // enable env variables
 
 export class MediumService {
 
-    public static async getRecentPosts(username: string): Promise<SocialMediaPost[]> {
-        const url = MediumConstants.MEDIUM_PROFILE_URL + username;
+    public static async getRecentPosts(): Promise<SocialMediaPost[]> {
+        const url = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
         console.log(url);
         // Launch browser
         const browser = await puppeteer.launch({
-            args: [`--proxy-server=http=${PuppeteerService.randomizeProxy()}`, "--incognito"],
+            args: [`--proxy-server=http://${PuppeteerService.randomizeProxy()}`, "--incognito"],
         });
         const page = await browser.newPage();                   // get new page
         await page.setViewport({ width: 1000, height: 926 });   // set height to see new posts

@@ -20,7 +20,7 @@ async function reGenerateReadme() {
 
     try {
         console.log('[INFO] Pulling medium posts...');
-        await fetchAndStoreMediumPosts("benkostiuk");
+        await fetchAndStoreMediumPosts();
         console.log('[INFO] Successfully pulled medium posts.');
     } catch(err) {
         console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
