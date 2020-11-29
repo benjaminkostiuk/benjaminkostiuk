@@ -42,15 +42,15 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year, c
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
+        <a target="_blank" href="https://store.steampowered.com/app/1145360"><img alt="Hades" src=".&#x2F;assets&#x2F;images&#x2F;Hades.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/32440"><img alt="LEGO® Star Wars™: The Complete Saga" src=".&#x2F;assets&#x2F;images&#x2F;LEGO® Star Wars™: The Complete Saga.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/204360"><img alt="Castle Crashers" src=".&#x2F;assets&#x2F;images&#x2F;Castle Crashers.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1145360"><img alt="Hades" src=".&#x2F;assets&#x2F;images&#x2F;Hades.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, November 28, 4:14 PM EST
+    <br/>Last refresh: Saturday, November 28, 7:47 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
