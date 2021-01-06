@@ -1,5 +1,10 @@
 export const PLACEHOLDER = "__PLACEHOLDER__";
 
+export class GitHubConstants {
+    public static readonly RECENT_WORKED_ON_REPOS_URL = `https://api.github.com/users/${PLACEHOLDER}/repos?sort=updated&direction=desc`;
+    
+}
+
 export class SteamConstants {
     public static readonly RECENTLY_PLAYED_URL = "http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/";
     public static readonly PLAYER_ACHEIVEMENTS_URL = "http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/";
