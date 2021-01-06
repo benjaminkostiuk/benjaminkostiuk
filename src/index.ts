@@ -1,8 +1,10 @@
 import mustache from 'mustache';
 import fs from 'fs';
 
+import { GithubService } from './services/github.service';
 import { LinkedinConstants, MediumConstants, MustacheTemplateConstants } from './constants';
 import { SocialMediaPost } from './models/post';
+import { Repository } from './models/repository';
 import { generateGameImg, getGamesList } from './games';
 import { fetchAndStoreMediumPosts } from './social';
 
@@ -17,6 +19,31 @@ async function reGenerateReadme() {
     games.forEach(async game => {
         await generateGameImg(game);
     });
+
+    // Get a list of recently worked on repos
+    const repos = await GithubService.GetRecentlyWorkedOnRepos({
+        username: 'benjaminkostiuk',
+        per_page: 5
+    })
+    .then(res => {
+        console.log(`[INFO] Successfully pulled recently worked on repos from github.`);
+        return res.response
+    })
+    .catch(err => {
+        throw new Error(`[WARNING] Could not pull GitHub repos with err ${err}`);
+    });
+    
+    // Create cards for mustache replacement
+    const repoCards: Repository[] = repos
+        .filter(repo => repo.name !== 'benjaminkostiuk')        // Filter out Profile Readme repo
+        .map(repo => {                                          // Map to Repository cards
+            return {
+                name: repo.name,
+                url: repo.html_url
+            }
+        })
+        .slice(0, 2);
+    
 
     // try {
     //     console.log('[INFO] Pulling medium posts...');
@@ -82,7 +109,8 @@ async function reGenerateReadme() {
             timeZoneName: 'short',
             timeZone: 'America/Toronto'
         }),
-        posts: totalPosts
+        posts: totalPosts,
+        projects: repoCards
     });
     console.log('[INFO] Writing updated content to README.md...');
     fs.writeFileSync('README.md', content);
