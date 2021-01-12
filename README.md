@@ -3,7 +3,6 @@
 [![Linkedin](https://img.shields.io/badge/-benjaminkostiuk-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/benjaminkostiuk/)](https://www.linkedin.com/in/benjaminkostiuk/)
 [![Mail](https://img.shields.io/badge/-benkostiuk1-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:benkostiuk1@gmail.com)](mailto:benkostiuk1@gmail.com)
 [![Website](https://img.shields.io/badge/-benkostiuk.com-00A82D?style=flat-square&logo=google-chrome&logoColor=white&link=https://www.benkostiuk.com)](https://www.benkostiuk.com)
-[![Medium](https://img.shields.io/badge/-@benkostiuk-12100E?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@benkostiuk)](https://medium.com/@benkostiuk)
 
 <p>Welcome to my Github! <br/>
 I'm a <b>Computer Science student at McMaster University</b> in my third year. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
@@ -57,7 +56,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, January 11, 4:28 PM EST
+    <br/>Last refresh: Monday, January 11, 7:46 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
