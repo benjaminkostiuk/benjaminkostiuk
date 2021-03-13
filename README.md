@@ -48,15 +48,15 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-        <a target="_blank" href="https://store.steampowered.com/app/1123770"><img alt="Curse of the Dead Gods" src=".&#x2F;assets&#x2F;images&#x2F;Curse of the Dead Gods.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/535480"><img alt="Sundered: Eldritch Edition" src=".&#x2F;assets&#x2F;images&#x2F;Sundered: Eldritch Edition.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1123770"><img alt="Curse of the Dead Gods" src=".&#x2F;assets&#x2F;images&#x2F;Curse of the Dead Gods.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1037020"><img alt="ScourgeBringer" src=".&#x2F;assets&#x2F;images&#x2F;ScourgeBringer.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, March 12, 4:18 PM EST
+    <br/>Last refresh: Friday, March 12, 7:49 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
