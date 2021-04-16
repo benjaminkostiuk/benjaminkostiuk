@@ -50,13 +50,12 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/632360"><img alt="Risk of Rain 2" src=".&#x2F;assets&#x2F;images&#x2F;Risk of Rain 2.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/512900"><img alt="Streets of Rogue" src=".&#x2F;assets&#x2F;images&#x2F;Streets of Rogue.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1147560"><img alt="Skul: The Hero Slayer" src=".&#x2F;assets&#x2F;images&#x2F;Skul: The Hero Slayer.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, April 16, 2:14 PM EDT
+    <br/>Last refresh: Friday, April 16, 5:06 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
