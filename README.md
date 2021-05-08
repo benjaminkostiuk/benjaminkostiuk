@@ -49,13 +49,14 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1123770"><img alt="Curse of the Dead Gods" src=".&#x2F;assets&#x2F;images&#x2F;Curse of the Dead Gods.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/953490"><img alt="CARRION" src=".&#x2F;assets&#x2F;images&#x2F;CARRION.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1476170"><img alt="Godstrike" src=".&#x2F;assets&#x2F;images&#x2F;Godstrike.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, May 8, 11:22 AM EDT
+    <br/>Last refresh: Saturday, May 8, 2:28 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
