@@ -37,8 +37,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
+[![test-github-actions-ci card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=test-github-actions-ci)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;test-github-actions-ci)
 [![github-actions-for-packages card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=github-actions-for-packages)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;github-actions-for-packages)
-[![github-actions-for-ci card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=github-actions-for-ci)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;github-actions-for-ci)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
@@ -50,13 +50,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1123770"><img alt="Curse of the Dead Gods" src=".&#x2F;assets&#x2F;images&#x2F;Curse of the Dead Gods.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/218230"><img alt="PlanetSide 2" src=".&#x2F;assets&#x2F;images&#x2F;PlanetSide 2.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/593640"><img alt="Papetura" src=".&#x2F;assets&#x2F;images&#x2F;Papetura.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1455840"><img alt="Dorfromantik" src=".&#x2F;assets&#x2F;images&#x2F;Dorfromantik.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, June 10, 5:18 PM EDT
+    <br/>Last refresh: Thursday, June 10, 8:58 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
