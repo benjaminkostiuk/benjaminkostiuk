@@ -50,13 +50,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/250680"><img alt="BELOW" src=".&#x2F;assets&#x2F;images&#x2F;BELOW.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1069530"><img alt="Narita Boy" src=".&#x2F;assets&#x2F;images&#x2F;Narita Boy.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1455840"><img alt="Dorfromantik" src=".&#x2F;assets&#x2F;images&#x2F;Dorfromantik.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/775580"><img alt="ITTA" src=".&#x2F;assets&#x2F;images&#x2F;ITTA.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, July 10, 2:22 PM EDT
+    <br/>Last refresh: Saturday, July 10, 5:17 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
 <p align="center">
     <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
