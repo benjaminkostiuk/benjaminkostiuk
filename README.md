@@ -47,7 +47,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
-        <p><i>Hmmm, looks like I haven't posted anything yet.</i></p>
+        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:6716500148807110656"> Hey first-years, can&#39;t wait to see you there!</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
+        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:6714314232378216448"> Attention Computer Science 1st years! The McMaster Computer Science Society...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
 </ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
@@ -60,7 +61,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, July 15, 7:53 PM EDT
+    <br/>Last refresh: Thursday, July 15, 7:56 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
