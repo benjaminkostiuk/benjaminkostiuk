@@ -16,7 +16,6 @@ export class GithubService {
             throw new Error(`Failed to GET ${URL} with status code ${response.status}.`);
         }
     }
-
 }
 
 interface GetRecentlyWorkedOnReposParams {
