@@ -3,21 +3,28 @@
 [![Linkedin](https://img.shields.io/badge/-benjaminkostiuk-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/benjaminkostiuk/)](https://www.linkedin.com/in/benjaminkostiuk/)
 [![Mail](https://img.shields.io/badge/-benkostiuk1-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:benkostiuk1@gmail.com)](mailto:benkostiuk1@gmail.com)
 [![Website](https://img.shields.io/badge/-benkostiuk.com-00A82D?style=flat-square&logo=google-chrome&logoColor=white&link=https://benkostiuk.com)](https://benkostiuk.com)
+[![Medium](https://img.shields.io/badge/-@benkostiuk-12100E?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@benkostiuk)](https://medium.com/@benkostiuk)
 
 <p>Welcome to my Github! <br/>
-I'm a <b>Computer Science student at McMaster University</b> in my third year. I'm also the Director of Academics for the McMaster Computer Science Society.</p>
+I'm a <b>Computer Science student at McMaster University</b> in my third year. Outside of class I'm part of the McMaster Student Ambassador program as a representative for the CS program
+ and am involved with McMaster's Computer Science Society, previously as the Director of Academics.</p>
 
-<p>Last summer <b>I interned @ RBC</b> supporting the needs of the business teams responsible for crafting and deploying consumer offers.</p>
+<p>I've previously <b>interned @ RBC</b> and <b>Coveo</b> supporting the development of large-scale data-intensive applications responsible for core business functionality.
 
-<p>Most of my experience is in full-stack web development with personal pursuits in mobile development, information security and DevOps. If you want to talk code (or not) <a href="https://www.linkedin.com/in/benjaminkostiuk" target="_blank">let's connect!</a></p>
+<p>Most of my experience is in full-stack web development with personal pursuits in mobile development, DevOps and information security. If you want to talk code (or not) <a href="https://www.linkedin.com/in/benjaminkostiuk" target="_blank">let's connect!</a></p>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027745/6842/blob_derpy.png?1572027745" width="24"/> What I code with </h3>
 <p>
+    <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-2196f3?style=flat-square&logo=flutter&logoColor=white" />
     <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-    <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
+    <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
+    <img alt="Microsoft Azure" src="https://img.shields.io/badge/-Microsoft_Azure-0078d4?style=flat-square&logo=microsoft-azure&logoColor=white" />
     <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+    <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white" />
     <img alt="Dart" src="https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+    <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479a1?style=flat-square&logo=MySQL&logoColor=white" />
     <img alt="python" src="https://img.shields.io/badge/-python-306998?style=flat-square&logo=python&logoColor=white" />
     <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
     <img alt="Haskell" src="https://img.shields.io/badge/-Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white" />
@@ -37,13 +44,10 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
-[![puff card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=puff)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;puff)
-[![test-github-actions-ci card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=test-github-actions-ci)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;test-github-actions-ci)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
-        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:6716500148807110656"> Hey first-years, can&#39;t wait to see you there!</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
-        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:6714314232378216448"> Attention Computer Science 1st years! The McMaster Computer Science Society...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
+        <p><i>Hmmm, looks like I haven't posted anything yet.</i></p>
 </ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
@@ -56,8 +60,10 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. I
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, July 15, 5:18 PM EDT
-    <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are pulled from <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.</p>
+    <br/>Last refresh: Thursday, July 15, 7:53 PM EDT
+    <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
+    <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
+</p>
 <p align="center">
-    <img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" />
+    <a href="https://github.com/benjaminkostiuk/benjaminkostiuk/actions/workflows/main.yaml"><img src="https://github.com/benjaminkostiuk/benjaminkostiuk/actions/workflows/main.yaml/badge.svg" /></a>
 </p>
