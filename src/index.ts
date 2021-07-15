@@ -2,100 +2,72 @@ import mustache from 'mustache';
 import fs from 'fs';
 
 import { GithubService } from './services/github.service';
-import { LinkedinConstants, MediumConstants, MustacheTemplateConstants } from './constants';
+import { LinkedinConstants, MediumConstants, MustacheTemplateConstants, SocialMediaPostConstants } from './constants';
 import { SocialMediaPost } from './models/post';
 import { Repository } from './models/repository';
 import { generateGameImg, getGamesList } from './games';
-import { fetchAndStoreMediumPosts } from './social';
-
-require('dotenv').config();
+import { Game } from './models/game';
+import config from './config';
 
 // Regenerate README.md file based on mustache template with data from games & social media
-async function reGenerateReadme() {
-    
-    // Get list of games
-    const games = await getGamesList();
-    // Generate png file for each game
-    games.forEach(async game => {
-        await generateGameImg(game);
-    });
-
-    // Get a list of recently worked on repos
-    const repos = await GithubService.GetRecentlyWorkedOnRepos({
-        username: 'benjaminkostiuk',
-        per_page: 5
-    })
-    .then(res => {
-        console.log(`[INFO] Successfully pulled recently worked on repos from github.`);
-        return res.response
-    })
-    .catch(err => {
-        throw new Error(`[WARNING] Could not pull GitHub repos with err ${err}`);
-    });
-    
-    // Create cards for mustache replacement
-    const repoCards: Repository[] = repos
-        .filter(repo => repo.name !== 'benjaminkostiuk')        // Filter out Profile Readme repo
-        .map(repo => {                                          // Map to Repository cards
-            return {
-                name: repo.name,
-                url: repo.html_url
-            }
-        })
-        .slice(0, 2);
-    
-
-    // try {
-    //     console.log('[INFO] Pulling medium posts...');
-    //     await fetchAndStoreMediumPosts();
-    //     console.log('[INFO] Successfully pulled medium posts.');
-    // } catch(err) {
-    //     console.log(`[WARNING] Failed to pull medium posts with error ${err}.`);
-    //     console.log(`[INFO] Falling back to useing reading medium posts...`);
-    // }
-
-    // Get medium posts
-    let mediumPosts: SocialMediaPost[] = [];
+(async () => {
+    // Get list of recently played games and their achievements
+    let games: Game[] = [];
     try {
-        console.log(`[INFO] Parsing Medium data from ${MediumConstants.MEDIUM_DATA_PATH}...`);
-        mediumPosts = await fs.promises.readFile(MediumConstants.MEDIUM_DATA_PATH).then(data => JSON.parse(data.toString()));
-    } catch(err) {
-        console.log(`[WARNING] Could not parse Medium data with ${err}.`);
-    }
-    // // Add profile link and platform
-    mediumPosts.forEach(post => {
-        post.profileLink = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
-        post.platform = 'Medium';
-    });
-
-    // Read posts from file
-    let linkedinPosts: SocialMediaPost[] = [];
-    try {
-        console.log(`[INFO] Parsing Linkedin data from ${LinkedinConstants.LINKEDIN_DATA_PATH}...`);
-        await fs.promises.readFile(LinkedinConstants.LINKEDIN_DATA_PATH)
-            .then(data => {
-                linkedinPosts = JSON.parse(data.toString());
-            })
-    } catch(err) {
-        console.log(`[WARNING] Could not parse Linkedin data with ${err}.`);
-    }
-    // Truncate text and add subtitles for shares
-    linkedinPosts.forEach(post => {
-        if(post.title.length > 80) {
-            post.title = post.title.slice(0, 75) + '...';
+        games = await getGamesList();
+        for (let game of games) {
+            await generateGameImg(game);
         }
-        post.subtitle = 'Shared a post'
-        post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
-        post.platform = 'Linkedin';
-    });
-
-    // Trim posts to proper counts
-    let totalPosts = mediumPosts.concat(linkedinPosts);
-    if(process.env.POST_COUNT) {
-        let num: number = parseInt(process.env.POST_COUNT);
-        totalPosts = totalPosts.slice(0, num);
+    } catch (err) {
+        throw new Error(`Could not get games and create game images with err ${err}`);
     }
-    
+
+    // Get list of recently worked on repos from github
+    const recentReposResponse = await GithubService.GetRecentlyWorkedOnRepos({
+        username: config.github.username
+    }).catch(err => {
+        throw new Error(`Could not pull GitHub repos with err ${err}`)
+    });
+    console.log(`Successfully pulled recently worked on repos from github.`);
+
+    // Create repository cards to use in mustache replacement
+    const repositoryCards: Repository[] = recentReposResponse.response
+        .filter(repo => repo.name !== config.github.username)   // Filter out Profile Readme repo
+        .map(repo => ({ name: repo.name, url: repo.html_url }))
+        .slice(0, 2);
+
+
+    // Parse social media posts to share 
+    let socialPosts: SocialMediaPost[] = [];
+    try {
+        console.log(`Parsing Social Posts data from ${SocialMediaPostConstants.SOCIAL_POSTS_PATH}...`);
+        socialPosts = await fs.promises.readFile(SocialMediaPostConstants.SOCIAL_POSTS_PATH).then(data => JSON.parse(data.toString()));
+    } catch (err) {
+        console.warn(`Failed to parse social posts with error ${err}.`);
+    }
+
+    // Add attributes to each post according to platform
+    for(let post of socialPosts) {
+        post.subtitle = 'Shared a post'
+        switch(post.platform) {
+            case 'Linkedin':
+                if (post.title.length > 80) {
+                    post.title = post.title.slice(0, 75) + '...';
+                }
+                post.icon = LinkedinConstants.LINKEDIN_ICON;
+                post.profileLink = LinkedinConstants.LINKEDIN_PROFILE_URL + process.env.LINKEDIN_USERNAME;
+                post.source = 1;
+                break;
+            case 'Medium':
+                post.icon = MediumConstants.MEDIUM_ICON;
+                post.profileLink = MediumConstants.MEDIUM_PROFILE_URL + process.env.MEDIUM_USERNAME;
+                post.source = 1;
+                break;
+            default:
+                console.warn(`Platform ${post.platform} not supported for post ${post.title}. Skipping...`);
+        }
+    }
+
     // Replace README.md file by reading from mustache template
     const readmeContent = await fs.promises.readFile(MustacheTemplateConstants.mainPath)
     const content = mustache.render(readmeContent.toString(), {
@@ -109,12 +81,9 @@ async function reGenerateReadme() {
             timeZoneName: 'short',
             timeZone: 'America/Toronto'
         }),
-        posts: totalPosts,
-        projects: repoCards
+        posts: socialPosts,
+        projects: repositoryCards
     });
     console.log('[INFO] Writing updated content to README.md...');
     fs.writeFileSync('README.md', content);
-}
-
-reGenerateReadme();
-
+})();

@@ -20,33 +20,48 @@ export class SteamService {
         }
     }
     
+    /**
+     * Get recently played games on steam
+     * https://developer.valvesoftware.com/wiki/Steam_Web_API#GetRecentlyPlayedGames_.28v0001.29
+     */
     public static async getRecentlyPlayedGames(params: GetRecentlyPlayedGamesParams): Promise<GetRecentlyPlayedGamesResponse> {
         const URL = SteamConstants.RECENTLY_PLAYED_URL;
         try {
             const data = await this.callSteamApi(URL, params);
             return data;
-        } catch(error) {
-            throw new Error(error);
+        } catch(err) {
+            console.error(err);
+            throw new Error(err);
         }
     }
 
+    /**
+     * Get player achievements for a game by its app id
+     * https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerAchievements_.28v0001.29
+     */
     public static async getPlayerAchievements(params: GetPlayerAchievementsParams): Promise<GetPlayerAchievementsResponse> {
         const URL = SteamConstants.PLAYER_ACHEIVEMENTS_URL;
         try {
             const data = await this.callSteamApi(URL, params);
             return data;
-        } catch(error) {
-            throw new Error(error);
+        } catch(err) {
+            console.error(err);
+            throw new Error(err);
         }
     }
 
+    /**
+     * Get a games schema information including possible achievements
+     * https://partner.steamgames.com/doc/webapi/ISteamUserStats
+     */
     public static async getSchemaForGame(params: GetSchemaForGameParams): Promise<GetSchemaForGameResponse> {
         const URL = SteamConstants.GET_SCHEMA_FOR_GAME;
         try {
             const data = await this.callSteamApi(URL, params);
             return data;
-        } catch(error) {
-            throw new Error(error);
+        } catch(err) {
+            console.error(err);
+            throw new Error(err);
         }
     }
 }
