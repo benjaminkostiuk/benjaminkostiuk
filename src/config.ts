@@ -10,7 +10,7 @@ export default {
     },
     github: {
         // Github username
-        username: process.env.GITHUB_USERNAME
+        username: process.env.GHUB_USERNAME
     },
     linkedin: {
         // Linkedin username
