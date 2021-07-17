@@ -24,7 +24,10 @@ import config from './config';
 
     // Get list of recently worked on repos from github
     const recentReposResponse = await GithubService.GetRecentlyWorkedOnRepos({
-        username: config.github.username
+        sort: 'updated',
+        direction: 'desc',
+        visibility: 'public',
+        per_page: 5
     }).catch(err => {
         throw new Error(`Could not pull GitHub repos with err ${err}`)
     });
@@ -33,7 +36,7 @@ import config from './config';
     // Create repository cards to use in mustache replacement
     const repositoryCards: Repository[] = recentReposResponse.response
         .filter(repo => repo.name !== config.github.username)   // Filter out Profile Readme repo
-        .map(repo => ({ name: repo.name, url: repo.html_url }))
+        .map(repo => ({ name: repo.name, owner: repo.owner.login, url: repo.html_url }))
         .slice(0, 2);
 
 
