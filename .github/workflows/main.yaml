@@ -33,6 +33,7 @@ jobs:
           LINKEDIN_USERNAME: ${{ secrets.LINKEDIN_USERNAME }}
           LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
           GHUB_USERNAME: ${{ secrets.GHUB_USERNAME }}
+          GHUB_TOKEN: ${{ secrets.GHUB_TOKEN }}
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
