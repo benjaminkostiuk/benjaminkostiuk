@@ -39,7 +39,6 @@ import config from './config';
         .map(repo => ({ name: repo.name, owner: repo.owner.login, url: repo.html_url }))
         .slice(0, 2);
 
-
     // Parse social media posts to share 
     let socialPosts: SocialMediaPost[] = [];
     try {

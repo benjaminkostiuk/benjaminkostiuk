@@ -12,7 +12,9 @@ export class GithubService {
         const sort = params.sort || 'full_name';
         const direction = params.direction || 'asc';
         const visibility = params.visibility || 'public';
-        const URL = GitHubConstants.RECENT_WORKED_ON_REPOS_URL + `?per_page=${pageCount}&sort=${sort}&direction=${direction}&visibility=${visibility}`;
+        const affiliation = params.affiliation?.join(',') || 'owner,collaborator,organization_member';
+        const URL = GitHubConstants.RECENT_WORKED_ON_REPOS_URL + `?per_page=${pageCount}&sort=${sort}`
+            + `&direction=${direction}&visibility=${visibility}&affiliation=${affiliation}`;
         let response = await axios.get(URL, {
             headers: {
                 Authorization: `Bearer ${config.github.token}`,
@@ -31,7 +33,8 @@ interface GetRecentlyWorkedOnReposParams {
     per_page?: number,
     direction?: 'asc' | 'desc',
     sort?: 'created' | 'updated' | 'pushed' | 'full_name',
-    visibility?: 'all' | 'public' | 'private'
+    visibility?: 'all' | 'public' | 'private',
+    affiliation?: ('owner' | 'collaborator' | 'organization_member')[]
 }
 
 interface GetRecentlyWorkedOnReposResponse {
