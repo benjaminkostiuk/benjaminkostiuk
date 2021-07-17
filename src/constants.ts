@@ -1,8 +1,7 @@
 export const PLACEHOLDER = "__PLACEHOLDER__";
 
 export class GitHubConstants {
-    public static readonly RECENT_WORKED_ON_REPOS_URL = `https://api.github.com/users/${PLACEHOLDER}/repos?sort=updated&direction=desc`;
-    
+    public static readonly RECENT_WORKED_ON_REPOS_URL = `https://api.github.com/user/repos`;
 }
 
 export class SteamConstants {

@@ -10,7 +10,10 @@ export default {
     },
     github: {
         // Github username
-        username: process.env.GHUB_USERNAME
+        username: process.env.GHUB_USERNAME,
+        
+        // Github token with read access to all your repos
+        token: process.env.GHUB_TOKEN
     },
     linkedin: {
         // Linkedin username
