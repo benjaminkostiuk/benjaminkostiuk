@@ -44,8 +44,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
+[![docs card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=docs)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;docs)
 [![test-runner card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=test-runner)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;test-runner)
-[![cloud-configuration card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=cloud-configuration)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;cloud-configuration)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
@@ -57,14 +57,14 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1127500"><img alt="Mini Motorways" src=".&#x2F;assets&#x2F;images&#x2F;Mini Motorways.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/250680"><img alt="BELOW" src=".&#x2F;assets&#x2F;images&#x2F;BELOW.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1455840"><img alt="Dorfromantik" src=".&#x2F;assets&#x2F;images&#x2F;Dorfromantik.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/955050"><img alt="Bright Memory" src=".&#x2F;assets&#x2F;images&#x2F;Bright Memory.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, August 16, 2:23 PM EDT
+    <br/>Last refresh: Monday, August 16, 5:17 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
