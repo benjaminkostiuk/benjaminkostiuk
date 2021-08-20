@@ -44,8 +44,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
+[![docs card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=docs)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;docs)
 [![course-management card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=course-management)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;course-management)
-[![cloud-configuration card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=cloud-configuration)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;cloud-configuration)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
@@ -64,7 +64,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, August 20, 11:21 AM EDT
+    <br/>Last refresh: Friday, August 20, 2:23 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
