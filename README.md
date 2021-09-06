@@ -44,27 +44,27 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
-[![cloud-configuration card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=cloud-configuration)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;cloud-configuration)
 [![course-management card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=course-management)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;course-management)
+[![test-runner card](https://github-readme-stats.vercel.app/api/pin/?username=puffproject&repo=test-runner)](https:&#x2F;&#x2F;github.com&#x2F;puffproject&#x2F;test-runner)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
-        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_computerscience-haskell-activity-6824732594547044352-jF2I"> If you’re an incoming #computerscience first year and you’re looking for a ...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
-        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_benjaminkostiuk-overview-activity-6822305140381425664-55r0"> Just finished updating my #github profile Readme at https:&#x2F;&#x2F;lnkd.in&#x2F;eFN2nxk...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
-        <li><img src="https:&#x2F;&#x2F;www.flaticon.com&#x2F;svg&#x2F;static&#x2F;icons&#x2F;svg&#x2F;124&#x2F;124011.svg" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:6716500148807110656"> Hey first-years, can&#39;t wait to see you there!</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
+        <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;2111&#x2F;2111505.png" width="16"><a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk&#x2F;inspiration-for-self-promotion-24d8bc3bc616"> Inspiration for self-promotion. My thoughts after reading Show Your Work!</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk">Medium</a></li>
+        <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;124&#x2F;124011.png" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_computerscience-haskell-activity-6824732594547044352-jF2I"> If you’re an incoming #computerscience first year and you’re looking for a ...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
+        <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;124&#x2F;124011.png" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_benjaminkostiuk-overview-activity-6822305140381425664-55r0"> Just finished updating my #github profile Readme at https:&#x2F;&#x2F;lnkd.in&#x2F;eFN2nxk...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
 </ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-        <a target="_blank" href="https://store.steampowered.com/app/250680"><img alt="BELOW" src=".&#x2F;assets&#x2F;images&#x2F;BELOW.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/688420"><img alt="Bad North" src=".&#x2F;assets&#x2F;images&#x2F;Bad North.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1127500"><img alt="Mini Motorways" src=".&#x2F;assets&#x2F;images&#x2F;Mini Motorways.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1455840"><img alt="Dorfromantik" src=".&#x2F;assets&#x2F;images&#x2F;Dorfromantik.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/785790"><img alt="WHAT THE GOLF?" src=".&#x2F;assets&#x2F;images&#x2F;WHAT THE GOLF.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Wednesday, August 25, 8:30 AM EDT
+    <br/>Last refresh: Monday, September 6, 7:10 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
