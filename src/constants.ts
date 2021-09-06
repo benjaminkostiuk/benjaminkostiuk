@@ -13,7 +13,7 @@ export class SteamConstants {
 export class MediumConstants {
     public static readonly MEDIUM_DOMAIN = "https://medium.com";
     public static readonly MEDIUM_PROFILE_URL = "https://medium.com/@";
-    public static readonly MEDIUM_ICON = "https://www.flaticon.com/svg/static/icons/svg/2111/2111505.svg";
+    public static readonly MEDIUM_ICON = "https://cdn-icons-png.flaticon.com/512/2111/2111505.png";
 }
 
 export class LinkedinConstants {
@@ -21,7 +21,7 @@ export class LinkedinConstants {
     public static readonly LINKEDIN_SHARES_URL = `https://www.linkedin.com/in/${PLACEHOLDER}/detail/recent-activity/shares`;
     public static readonly LINKEDIN_ARTICLES_URL = `https://www.linkedin.com/in/${PLACEHOLDER}/detail/recent-activity/posts`;
     public static readonly LINKEDIN_FEED_UPDATE_URL = "https://www.linkedin.com/feed/update/";
-    public static readonly LINKEDIN_ICON = "https://www.flaticon.com/svg/static/icons/svg/124/124011.svg";
+    public static readonly LINKEDIN_ICON = "https://cdn-icons-png.flaticon.com/512/124/124011.png";
     public static readonly LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/";
 }
 
