@@ -38,7 +38,7 @@ export async function getGamesList() {
             appid: appid,
             name: name,
             img_logo_hash: img_logo_url,
-            path: `./assets/images/${name}.png`
+            path: `./assets/images/${name.replace(/[^a-zA-z0-9\s_]/g, "")}.png`
         };
 
         try {
