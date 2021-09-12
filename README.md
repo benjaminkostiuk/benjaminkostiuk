@@ -58,13 +58,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/688420"><img alt="Bad North" src=".&#x2F;assets&#x2F;images&#x2F;Bad North.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/785790"><img alt="WHAT THE GOLF?" src=".&#x2F;assets&#x2F;images&#x2F;WHAT THE GOLF.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/619280"><img alt="Gloom" src=".&#x2F;assets&#x2F;images&#x2F;Gloom.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1124560"><img alt="Fallen Angel" src=".&#x2F;assets&#x2F;images&#x2F;Fallen Angel.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Sunday, September 12, 2:21 PM EDT
+    <br/>Last refresh: Sunday, September 12, 5:16 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
