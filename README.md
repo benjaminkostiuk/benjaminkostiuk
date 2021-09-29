@@ -57,14 +57,14 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/894020"><img alt="Death&#39;s Door" src=".&#x2F;assets&#x2F;images&#x2F;Deaths Door.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/688420"><img alt="Bad North" src=".&#x2F;assets&#x2F;images&#x2F;Bad North.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/649950"><img alt="Ashen" src=".&#x2F;assets&#x2F;images&#x2F;Ashen.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1046030"><img alt="ISLANDERS" src=".&#x2F;assets&#x2F;images&#x2F;ISLANDERS.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Tuesday, September 28, 5:13 PM EDT
+    <br/>Last refresh: Tuesday, September 28, 9:00 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
