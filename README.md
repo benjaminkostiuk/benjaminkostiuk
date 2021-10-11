@@ -58,13 +58,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/894020"><img alt="Death&#39;s Door" src=".&#x2F;assets&#x2F;images&#x2F;Deaths Door.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/860510"><img alt="Little Nightmares II" src=".&#x2F;assets&#x2F;images&#x2F;Little Nightmares II.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1138960"><img alt="Biomass" src=".&#x2F;assets&#x2F;images&#x2F;Biomass.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1108590"><img alt="Eldest Souls" src=".&#x2F;assets&#x2F;images&#x2F;Eldest Souls.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, October 11, 2:22 PM EDT
+    <br/>Last refresh: Monday, October 11, 5:16 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
