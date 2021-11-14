@@ -58,13 +58,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/297130"><img alt="Titan Souls" src=".&#x2F;assets&#x2F;images&#x2F;Titan Souls.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/860510"><img alt="Little Nightmares II" src=".&#x2F;assets&#x2F;images&#x2F;Little Nightmares II.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/241930"><img alt="Middle-earth™: Shadow of Mordor™" src=".&#x2F;assets&#x2F;images&#x2F;Middleearth Shadow of Mordor.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1127500"><img alt="Mini Motorways" src=".&#x2F;assets&#x2F;images&#x2F;Mini Motorways.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Sunday, November 14, 1:22 PM EST
+    <br/>Last refresh: Sunday, November 14, 4:17 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
