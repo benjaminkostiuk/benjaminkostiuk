@@ -44,8 +44,8 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
-[![bonfire card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=bonfire)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;bonfire)
 [![CS-3MI3-OS-SOLS card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=CS-3MI3-OS-SOLS)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;CS-3MI3-OS-SOLS)
+[![bonfire card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=bonfire)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;bonfire)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
@@ -64,7 +64,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Wednesday, November 17, 7:31 AM EST
+    <br/>Last refresh: Wednesday, November 17, 10:20 AM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
