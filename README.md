@@ -9,7 +9,7 @@
 I'm a <b>Computer Science student at McMaster University</b> in my third year. Outside of class, I'm part of the McMaster Student Ambassador program as a representative for the CS program
  and am involved with McMaster's Computer Science Society, previously as the Director of Academics.</p>
 
-<p>I've previously <b>interned @ RBC</b> and <b>Coveo</b> supporting the development of large-scale data-intensive applications responsible for core business functionality.
+<p>I've previously <b>interned @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b> and <b><a href="https://www.coveo.com/en" target="_blank">Coveo</a></b> supporting the development of large-scale data-intensive applications responsible for core business functionality. This summer I'm interning at <b><a href="https://www.affirm.ca/" target="_blank">Affirm</a></b>!
 
 <p>Most of my experience is in full-stack web development with personal pursuits in mobile development, DevOps and information security. If you want to talk code (or not) <a href="https://www.linkedin.com/in/benjaminkostiuk" target="_blank">let's connect!</a></p>
 
@@ -64,7 +64,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, December 6, 8:28 PM EST
+    <br/>Last refresh: Monday, December 6, 8:57 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
