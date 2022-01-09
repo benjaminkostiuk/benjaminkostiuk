@@ -58,12 +58,13 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1369630"><img alt="ENDER LILIES" src=".&#x2F;assets&#x2F;images&#x2F;ENDER LILIES.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/250760"><img alt="Shovel Knight: Treasure Trove" src=".&#x2F;assets&#x2F;images&#x2F;Shovel Knight Treasure Trove.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/812550"><img alt="The King&#39;s Bird" src=".&#x2F;assets&#x2F;images&#x2F;The Kings Bird.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Sunday, January 9, 10:20 AM EST
+    <br/>Last refresh: Sunday, January 9, 1:24 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
