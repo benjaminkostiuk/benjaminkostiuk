@@ -56,14 +56,14 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-        <a target="_blank" href="https://store.steampowered.com/app/1040420"><img alt="Dreamscaper" src=".&#x2F;assets&#x2F;images&#x2F;Dreamscaper.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/613190"><img alt="Unworthy" src=".&#x2F;assets&#x2F;images&#x2F;Unworthy.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1040420"><img alt="Dreamscaper" src=".&#x2F;assets&#x2F;images&#x2F;Dreamscaper.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Sunday, January 30, 8:04 PM EST
+    <br/>Last refresh: Sunday, January 30, 10:19 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
