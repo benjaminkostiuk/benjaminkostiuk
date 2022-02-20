@@ -44,14 +44,14 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> What I'm working on</h3>
 
+[![cover-letter-generator card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=cover-letter-generator)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;cover-letter-generator)
 [![sprout card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=sprout)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;sprout)
-[![chroma-rush card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=chroma-rush)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;chroma-rush)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
+        <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;124&#x2F;124011.png" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_chroma-rush-by-benkostiuk-activity-6900557970678120448-MjUo"> As part of my #Game Design course this semester we have to design and creat...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
         <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;124&#x2F;124011.png" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_linkedin-internship-activity-6871608439265619968-2jfu"> If you’re feeling discouraged seeing your #linkedin feed fill up with #inte...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
         <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;2111&#x2F;2111505.png" width="16"><a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk&#x2F;inspiration-for-self-promotion-24d8bc3bc616"> Inspiration for self-promotion. My thoughts after reading Show Your Work!</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;medium.com&#x2F;@benkostiuk">Medium</a></li>
-        <li><img src="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;124&#x2F;124011.png" width="16"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;benjaminkostiuk_computerscience-haskell-activity-6824732594547044352-jF2I"> If you’re an incoming #computerscience first year and you’re looking for a ...</a><br/><i>Shared a post</i> on <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;benjaminkostiuk">Linkedin</a></li>
 </ul>
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
@@ -64,7 +64,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Sunday, February 20, 10:20 AM EST
+    <br/>Last refresh: Sunday, February 20, 1:18 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
