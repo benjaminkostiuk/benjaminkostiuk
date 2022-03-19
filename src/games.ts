@@ -37,7 +37,7 @@ export async function getGamesList() {
         const game: Game = {
             appid: appid,
             name: name,
-            img_logo_hash: img_logo_url,
+            img_logo_hash: img_logo_url,      // REMOVED FROM STEAM API, currently UNDEFINED
             path: `./assets/images/${name.replace(/[^a-zA-z0-9\s_]/g, "")}.png`
         };
 
