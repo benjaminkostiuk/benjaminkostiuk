@@ -63,7 +63,7 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Wednesday, August 10, 11:47 PM EDT
+    <br/>Last refresh: Thursday, August 11, 2:26 AM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
