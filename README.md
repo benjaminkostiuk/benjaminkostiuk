@@ -36,9 +36,9 @@ I've also previously interned @ <b><a href="https://www.rbcroyalbank.com/persona
     <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
     <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
-    <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-    <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
     <img alt="spark" src="https://img.shields.io/badge/-Spark-E25A1C?style=flat-square&logo=Apache-Spark&logoColor=white" />
+    <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+    <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
     <img alt="firebase" src="https://img.shields.io/badge/-Firebase-F57C00?style=flat-square&logo=firebase&logoColor=white" />
     <img alt="d3js" src="https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
     <img alt="Javascript" src="https://img.shields.io/badge/-JavaScript-e0b428?style=flat-square&logo=Javascript&logoColor=white" />
@@ -67,7 +67,7 @@ I've also previously interned @ <b><a href="https://www.rbcroyalbank.com/persona
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, August 22, 11:57 AM EDT
+    <br/>Last refresh: Monday, August 22, 12:01 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
