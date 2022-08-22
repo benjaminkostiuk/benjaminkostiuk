@@ -57,13 +57,12 @@ I'm a <b>Computer Science student at McMaster University</b> in my third year. O
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1092790"><img alt="Inscryption" src=".&#x2F;assets&#x2F;images&#x2F;Inscryption.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/250680"><img alt="BELOW" src=".&#x2F;assets&#x2F;images&#x2F;BELOW.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, August 20, 2:25 PM EDT
+    <br/>Last refresh: Monday, August 22, 11:25 AM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
