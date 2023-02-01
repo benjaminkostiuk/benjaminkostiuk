@@ -9,14 +9,15 @@ import config from "./config";
 
 // Get the last three games played with their latest achievement
 export async function getGamesList() {
-  const recentlyPlayedGames = (
-    await SteamService.getRecentlyPlayedGames({
-      key: config.steam.key,
-      steamid: config.steam.id,
-      format: "json",
-      count: 3,
-    })
-  ).response.games;
+  const recentlyPlayedGames =
+    (
+      await SteamService.getRecentlyPlayedGames({
+        key: config.steam.key,
+        steamid: config.steam.id,
+        format: "json",
+        count: 3,
+      })
+    ).response.games || [];
 
   // Get the schema for each game's acheivements
   const gameSchemas = await Promise.all(
