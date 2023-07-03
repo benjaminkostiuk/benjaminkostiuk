@@ -61,15 +61,13 @@ I've also previously interned @ <b><a href="https://www.rbcroyalbank.com/persona
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-    <i>Guess I'm not playing anything right now.
-    <img src="https://emojis.slackmojis.com/emojis/images/1536240439/4585/blobpeek.png?1536240439" width=25 />
-    Maybe check back later.</i>
+        <a target="_blank" href="https://store.steampowered.com/app/1253920"><img alt="Rogue Legacy 2" src=".&#x2F;assets&#x2F;images&#x2F;Rogue Legacy 2.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, July 3, 2:22 PM EDT
+    <br/>Last refresh: Monday, July 3, 5:16 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
