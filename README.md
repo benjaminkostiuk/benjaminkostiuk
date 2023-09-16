@@ -63,13 +63,12 @@ I've also previously interned @ <b><a href="https://www.rbcroyalbank.com/persona
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1318690"><img alt="shapez" src=".&#x2F;assets&#x2F;images&#x2F;shapez.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/241930"><img alt="Middle-earth™: Shadow of Mordor™" src=".&#x2F;assets&#x2F;images&#x2F;Middleearth Shadow of Mordor.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1930750"><img alt="shapez - Demo" src=".&#x2F;assets&#x2F;images&#x2F;shapez  Demo.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, September 15, 5:13 PM EDT
+    <br/>Last refresh: Friday, September 15, 9:07 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
