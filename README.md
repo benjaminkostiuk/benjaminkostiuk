@@ -63,13 +63,13 @@ I've also previously interned @ <b><a href="https://www.rbcroyalbank.com/persona
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/2060160"><img alt="The Farmer Was Replaced" src=".&#x2F;assets&#x2F;images&#x2F;The Farmer Was Replaced.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1154810"><img alt="Going Under" src=".&#x2F;assets&#x2F;images&#x2F;Going Under.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/268910"><img alt="Cuphead" src=".&#x2F;assets&#x2F;images&#x2F;Cuphead.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1037020"><img alt="ScourgeBringer" src=".&#x2F;assets&#x2F;images&#x2F;ScourgeBringer.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, June 7, 11:20 AM EDT
+    <br/>Last refresh: Friday, June 7, 2:24 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
