@@ -7,12 +7,12 @@
 [![Itch.io](https://img.shields.io/badge/-benkostiuk-FA5C5C?style=flat-square&logo=Itch.io&logoColor=white&link=https://benkostiuk.itch.io/)](https://benkostiuk.itch.io/)
 
 <p>Welcome to my Github! <br/>
-I'm a Software Developer @ <b><a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting the marketing science team. That means if you've
+I'm a <b>Software Developer @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting the marketing science team. That means if you've
 received an offer for an RBC product by email, phone, or push notification, I probably had a hand in it. 
 I've helped build the systems and data pipelines that decide which offers are right for you, when to contact you, and how best to reach you!</p>
 
 <p>I'm a Computer Science graduate of McMaster University, where I roleplayed as someone responsible as Director of Academics for the Computer Science Society. I do a bit of everything,
- from full-stack web development, to data pipelines, to real-time highly available systems. 
+ from <b>full-stack web development, to data pipelines, to real-time highly available systems</b>.
  My favorite systems are those that intertwine code with money, which maybe explains why I like to work in fintech. 
  Outside of work, I spend too much time online and not enough in the sun. I'm a big fan of indie games (Metroidvanias and Roguelikes are best), fantasy novels, personal finance and investing.</p>
 
@@ -72,7 +72,7 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, June 27, 5:16 PM EDT
+    <br/>Last refresh: Thursday, June 27, 8:25 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
