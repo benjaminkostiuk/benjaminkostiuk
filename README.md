@@ -66,13 +66,13 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/2114740"><img alt="Blasphemous 2" src=".&#x2F;assets&#x2F;images&#x2F;Blasphemous 2.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1455840"><img alt="Dorfromantik" src=".&#x2F;assets&#x2F;images&#x2F;Dorfromantik.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/2239150"><img alt="Thronefall" src=".&#x2F;assets&#x2F;images&#x2F;Thronefall.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/323580"><img alt="Jotun: Valhalla Edition" src=".&#x2F;assets&#x2F;images&#x2F;Jotun Valhalla Edition.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, June 27, 9:18 PM EDT
+    <br/>Last refresh: Thursday, June 27, 11:21 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
