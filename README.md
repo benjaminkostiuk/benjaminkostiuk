@@ -66,13 +66,12 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1286580"><img alt="Ship of Fools" src=".&#x2F;assets&#x2F;images&#x2F;Ship of Fools.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/2835570"><img alt="Buckshot Roulette" src=".&#x2F;assets&#x2F;images&#x2F;Buckshot Roulette.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/1497440"><img alt="COCOON" src=".&#x2F;assets&#x2F;images&#x2F;COCOON.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Wednesday, January 8, 9:06 PM EST
+    <br/>Last refresh: Wednesday, January 8, 10:38 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
