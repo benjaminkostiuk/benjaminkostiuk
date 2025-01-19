@@ -7,9 +7,9 @@
 [![Itch.io](https://img.shields.io/badge/-benkostiuk-FA5C5C?style=flat-square&logo=Itch.io&logoColor=white&link=https://benkostiuk.itch.io/)](https://benkostiuk.itch.io/)
 
 <p>Welcome to my GitHub! <br/>
-I'm a software developer who enjoys writing code for the marriage of money and the internet. My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. But my favorite problems involve hoisting financial infrastructure into the cloud, which maybe explains why I like to work in fintech.
-<br/>
-I current work as a <b>Senior Full Stack Dev @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting their marketing science team. If you've received an offer for an RBC product by email, phone, or push notification, I probably had a hand in building the systems and data pipelines that decided which offer was right for you, when to contact you, and how best to reach you!</p>
+I'm a software developer who enjoys writing code for the marriage of money and the internet. My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. But my favorite problems involve hoisting financial infrastructure into the cloud, which maybe explains why I like to work in fintech.</p>
+
+<p>I current work as a <b>Senior Full Stack Dev @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting their marketing science team. If you've received an offer for an RBC product by email, phone, or push notification, I probably had a hand in building the systems and data pipelines that decided which offer was right for you, when to contact you, and how best to reach you!</p>
 
 <p>I'm a Computer Science graduate of McMaster University, where I roleplayed someone responsible as Director of Academics for the Computer Science Society.
  Outside of work, I spend too much time online and not enough in the sun. I'm a big fan of indie video games (Metroidvanias and Roguelikes are best), fantasy novels (Tolkien not Harry Potter, Warhammer not Percy Jackson), personal finance, and investing.</p>
@@ -69,7 +69,7 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, January 18, 8:42 PM EST
+    <br/>Last refresh: Saturday, January 18, 8:44 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
