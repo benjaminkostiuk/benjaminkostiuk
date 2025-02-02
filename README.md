@@ -64,12 +64,13 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/2694490"><img alt="Path of Exile 2" src=".&#x2F;assets&#x2F;images&#x2F;Path of Exile 2.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1296610"><img alt="Peglin" src=".&#x2F;assets&#x2F;images&#x2F;Peglin.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/2666510"><img alt="Rusty&#39;s Retirement" src=".&#x2F;assets&#x2F;images&#x2F;Rustys Retirement.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, February 1, 10:22 PM EST
+    <br/>Last refresh: Sunday, February 2, 1:26 AM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
