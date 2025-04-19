@@ -7,12 +7,12 @@
 [![Itch.io](https://img.shields.io/badge/-benkostiuk-FA5C5C?style=flat-square&logo=Itch.io&logoColor=white&link=https://benkostiuk.itch.io/)](https://benkostiuk.itch.io/)
 
 <p>Welcome to my GitHub! <br/>
-I'm a software developer who enjoys writing code for the marriage of money and the internet. My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. But my favorite problems involve hoisting financial infrastructure into the cloud, which maybe explains why I like to work in fintech.</p>
+I'm a software developer who enjoys writing code for money on the internet. My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. But my favorite problems involve hoisting financial infrastructure into the cloud, which maybe explains why I like to work in fintech.</p>
 
-<p>I current work as a <b>Senior Full Stack Dev @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting their marketing science team. If you've received an offer for an RBC product by email, phone, or push notification, I probably had a hand in building the systems and data pipelines that decided which offer was right for you, when to contact you, and how best to reach you!</p>
+<p>I current work as a <b>Senior Full Stack Developer @ <a href="https://www.rbcroyalbank.com/personal.html" target="_blank">RBC</a></b>, supporting their Next Best Action marketing team. If you've received an offer for an RBC product by email, phone, or push notification, I probably had a hand in building the systems and data pipelines that decided which offer was right for you, when to contact you, and how best to reach you!</p>
 
 <p>I'm a Computer Science graduate of McMaster University, where I roleplayed someone responsible as Director of Academics for the Computer Science Society.
- Outside of work, I spend too much time online and not enough in the sun. I'm a big fan of indie video games (Metroidvanias and Roguelikes are best), fantasy novels (Tolkien not Harry Potter, Warhammer not Percy Jackson), personal finance, and investing.</p>
+ Outside of work, I spend too much time online and not enough in the sun. I'm a big fan of indie video games (Metroidvanias and Roguelikes are best), fantasy novels (Tolkien, not Harry Potter & Warhammer, not Percy Jackson), personal finance, and investing.</p>
 
 <p>Previous experience includes internships at @ <b><a href="https://www.affirm.ca/" target="_blank">Affirm</a></b> and <b><a href="https://www.coveo.com/en" target="_blank">Coveo</a></b>.
 If you'd like to connect with me, message me <a href="https://www.linkedin.com/in/benjaminkostiuk" target="_blank">on LinkedIn!</a></p>
@@ -62,14 +62,15 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-        <a target="_blank" href="https://store.steampowered.com/app/2694490"><img alt="Path of Exile 2" src=".&#x2F;assets&#x2F;images&#x2F;Path of Exile 2.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/311690"><img alt="Enter the Gungeon" src=".&#x2F;assets&#x2F;images&#x2F;Enter the Gungeon.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1796220"><img alt="Laika: Aged Through Blood" src=".&#x2F;assets&#x2F;images&#x2F;Laika Aged Through Blood.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1724770"><img alt="Castle Of Alchemists" src=".&#x2F;assets&#x2F;images&#x2F;Castle Of Alchemists.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/2478170"><img alt="Laika: Aged Through Blood Demo" src=".&#x2F;assets&#x2F;images&#x2F;Laika Aged Through Blood Demo.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, March 3, 1:31 AM EST
+    <br/>Last refresh: Saturday, April 19, 2:52 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
