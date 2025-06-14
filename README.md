@@ -62,15 +62,15 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
-        <a target="_blank" href="https://store.steampowered.com/app/2784470"><img alt="9 Kings" src=".&#x2F;assets&#x2F;images&#x2F;9 Kings.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/2525310"><img alt="Drop Duchy" src=".&#x2F;assets&#x2F;images&#x2F;Drop Duchy.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/2784470"><img alt="9 Kings" src=".&#x2F;assets&#x2F;images&#x2F;9 Kings.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/3701450"><img alt="Becoming Saint Demo" src=".&#x2F;assets&#x2F;images&#x2F;Becoming Saint Demo.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Saturday, June 14, 2:29 PM EDT
+    <br/>Last refresh: Saturday, June 14, 5:20 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
