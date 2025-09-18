@@ -64,13 +64,13 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1030300"><img alt="Hollow Knight: Silksong" src=".&#x2F;assets&#x2F;images&#x2F;Hollow Knight Silksong.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1637320"><img alt="Dome Keeper" src=".&#x2F;assets&#x2F;images&#x2F;Dome Keeper.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/2368930"><img alt="ISLANDERS: New Shores" src=".&#x2F;assets&#x2F;images&#x2F;ISLANDERS New Shores.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/2525310"><img alt="Drop Duchy" src=".&#x2F;assets&#x2F;images&#x2F;Drop Duchy.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Wednesday, September 17, 5:18 PM EDT
+    <br/>Last refresh: Wednesday, September 17, 9:43 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
