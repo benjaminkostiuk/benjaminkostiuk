@@ -50,8 +50,8 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 </p>
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1500425901/2646/allo-happy.gif?1500425901" width="24"/> Repos with recent activity</h3>
 
+[![benjaminkostiuk.github.io card](https://github-readme-stats.vercel.app/api/pin/?username=benjaminkostiuk&repo=benjaminkostiuk.github.io)](https:&#x2F;&#x2F;github.com&#x2F;benjaminkostiuk&#x2F;benjaminkostiuk.github.io)
 [![qtime-backend card](https://github-readme-stats.vercel.app/api/pin/?username=QueueTime&repo=qtime-backend)](https:&#x2F;&#x2F;github.com&#x2F;QueueTime&#x2F;qtime-backend)
-[![qtime-frontend card](https://github-readme-stats.vercel.app/api/pin/?username=QueueTime&repo=qtime-frontend)](https:&#x2F;&#x2F;github.com&#x2F;QueueTime&#x2F;qtime-frontend)
 
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027736/6827/blob_aww.png?1572027736" width="24"/> What I'm posting</h3>
 <ul>
@@ -64,12 +64,13 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1030300"><img alt="Hollow Knight: Silksong" src=".&#x2F;assets&#x2F;images&#x2F;Hollow Knight Silksong.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/1637320"><img alt="Dome Keeper" src=".&#x2F;assets&#x2F;images&#x2F;Dome Keeper.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1227280"><img alt="Despot&#39;s Game: Dystopian Battle Simulator" src=".&#x2F;assets&#x2F;images&#x2F;Despots Game Dystopian Battle Simulator.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Tuesday, September 30, 11:21 AM EDT
+    <br/>Last refresh: Tuesday, September 30, 2:30 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
