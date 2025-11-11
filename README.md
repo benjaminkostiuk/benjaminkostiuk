@@ -63,13 +63,12 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <h3><img src="https://emojis.slackmojis.com/emojis/images/1572027842/6925/blob_sunglasses.png?1572027842" width="24"/> What I'm playing</h3>
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/1658150"><img alt="Moonstone Island" src=".&#x2F;assets&#x2F;images&#x2F;Moonstone Island.png" /></a>
-        <a target="_blank" href="https://store.steampowered.com/app/3916150"><img alt="The Last Caretaker Demo" src=".&#x2F;assets&#x2F;images&#x2F;The Last Caretaker Demo.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Monday, November 10, 4:21 PM EST
+    <br/>Last refresh: Monday, November 10, 8:54 PM EST
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
