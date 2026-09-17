@@ -7,7 +7,7 @@
 [![Itch.io](https://img.shields.io/badge/-benkostiuk-FA5C5C?style=flat-square&logo=Itch.io&logoColor=white&link=https://benkostiuk.itch.io/)](https://benkostiuk.itch.io/)
 
 <p>Welcome to my GitHub! <br/>
-I'm a jack-of-all-trades developer with experience in a bunch of areas, always ready to jump on a new problem and learn something new (now made easier with AI). My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. I use AI tools and platforms in my development, but don't let them run wild in my codebase.</p>
+I'm a jack-of-all-trades developer with experience in a bunch of areas, always ready to jump on a new problem and learn something new (now made easier with AI). My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. Most of the code I write is for someone else (read: <i>my employer</i>), but the rest eventually finds its way here.</p>
 
 <p>I work as a <b>Senior Software Engineer @ <a href="https://www.datarobot.com/" target="_blank">DataRobot</a></b> on their Data & Connectors team, developing the data infrastructure, APIs, and tooling to support AI features like RAG pipelines, MCP servers, and AI-native applications. I recently delivered their foundational <a href="https://docs.datarobot.com/en/docs/api/dev-learning/python/data/file_registry.html" target="_blank">Files API and SDK</a> for working with unstructured data in agentic use cases!</p>
 
@@ -70,7 +70,7 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, September 17, 11:50 AM EDT
+    <br/>Last refresh: Thursday, September 17, 12:16 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
