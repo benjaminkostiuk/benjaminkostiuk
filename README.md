@@ -9,7 +9,7 @@
 <p>Welcome to my GitHub! <br/>
 I'm a jack-of-all-trades developer with experience in a bunch of areas, always ready to jump on a new problem and learn something new (now made easier with AI). My background is in building full stack applications, data pipelines, real-time highly available infrastructure, and data intensive applications. I use AI tools and platforms in my development, but don't let them run wild in my codebase.</p>
 
-<p>I work as a <b>Senior Software Engineer @ <a href="https://www.datarobot.com/" target="_blank">DataRobot</a></b> on their Data & Connectors team, developing the data infrastructure, APIs and tooling to support AI features like RAG pipelines, MCP servers and AI-native applications. I recently delivered their foundational <a href="https://docs.datarobot.com/en/docs/api/dev-learning/python/data/file_registry.html" target="_blank">Files API and SDK</a> for working with unstructured data in agentic use cases!</p>
+<p>I work as a <b>Senior Software Engineer @ <a href="https://www.datarobot.com/" target="_blank">DataRobot</a></b> on their Data & Connectors team, developing the data infrastructure, APIs, and tooling to support AI features like RAG pipelines, MCP servers, and AI-native applications. I recently delivered their foundational <a href="https://docs.datarobot.com/en/docs/api/dev-learning/python/data/file_registry.html" target="_blank">Files API and SDK</a> for working with unstructured data in agentic use cases!</p>
 
 <p>I'm a Computer Science graduate of McMaster University, where I roleplayed someone responsible as Director of Academics for the Computer Science Society.
  Outside of work, I spend too much time online and not enough in the sun. I'm a big fan of indie video games (Metroidvanias and Roguelikes), fantasy novels (Tolkien & Warhammer), personal finance, and investing.</p>
@@ -70,7 +70,7 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Thursday, September 17, 11:38 AM EDT
+    <br/>Last refresh: Thursday, September 17, 11:50 AM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
