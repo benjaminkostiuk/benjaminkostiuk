@@ -64,12 +64,13 @@ If you'd like to connect with me, message me <a href="https://www.linkedin.com/i
 <p>
         <a target="_blank" href="https://store.steampowered.com/app/2784470"><img alt="9 Kings" src=".&#x2F;assets&#x2F;images&#x2F;9 Kings.png" /></a>
         <a target="_blank" href="https://store.steampowered.com/app/4150860"><img alt="The Loopler" src=".&#x2F;assets&#x2F;images&#x2F;The Loopler.png" /></a>
+        <a target="_blank" href="https://store.steampowered.com/app/1283410"><img alt="Tails of Iron" src=".&#x2F;assets&#x2F;images&#x2F;Tails of Iron.png" /></a>
 </p>
 
 -------
 <p align="center">
     This <i>README</i> file is generated <b>every 3 hours</b>!
-    <br/>Last refresh: Friday, October 23, 7:40 PM EDT
+    <br/>Last refresh: Friday, October 23, 10:30 PM EDT
     <br/>Games are pulled from <a href="https://store.steampowered.com/" target="_blank">Steam</a> and posts are from my <a href="https://www.linkedin.com/" target="_blank">Linkedin</a> and <a href="https://medium.com/" target="_blank">Medium</a>.
     <br/>Inspired by <a href="https://github.com/thmsgbrt">Thomas Guibert</a> and his awesome README!
 </p>
